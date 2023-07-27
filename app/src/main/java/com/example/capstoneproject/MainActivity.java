@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         Button btnSub1 = findViewById(R.id.btnSub1);
         Button btnWeb = findViewById(R.id.btnWeb);
         Button btnDiary = findViewById(R.id.btnDiary);
-        Button btnProLove = findViewById(R.id.btnProLove);
 
 
         btnSub1.setOnClickListener(new View.OnClickListener() {
@@ -50,13 +49,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intentBogun=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.mohw.go.kr/react/index.jsp"));
                 startActivity(intentBogun);
-            }
-        });
-
-        btnProLove.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(view.getContext(), "교수님 사랑ㄴ합니다\uD83D\uDC95", Toast.LENGTH_SHORT).show();
             }
         });
 

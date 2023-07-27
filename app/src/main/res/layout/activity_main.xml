@@ -75,16 +75,6 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"/>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnProLove"
-                android:text="교수님 사랑합니다💕"
-                android:background="@drawable/button_round"
-                android:textColor="@color/white"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="10dp"></Button>
-
         </LinearLayout>
 
 
